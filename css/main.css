@@ -1,0 +1,174 @@
+.centralized {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clearWindow {
+    margin-top: 70px;
+    display: flex;
+    position:absolute;
+    font-size: 18px;
+    padding: 4px;
+    color: white !important;
+    background-color: rgb(185, 0, 0) !important;
+}
+#yes, #no {
+    margin: 5px ;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black !important;
+}
+#yes:hover, #no:hover {
+    box-shadow: 1px 1px 1px  black !important;
+    background-color: #a96868;
+    color: white;
+}
+#containerIndex {
+    display: grid;
+    grid-template-columns: 270px auto;
+}
+aside {border: 1px solid black; }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+body {font-family: 'Roboto', sans-serif;}
+aside input {
+    width: 40px;
+    height: 30px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+main {
+    margin-top: -100px;
+    height: 100vh;
+}
+.content {
+    width: 800px;
+    height: 600px;
+}
+#recents {
+    height: 150px;
+    width: 800px;
+    display: flex;
+    flex-direction: row ;
+    align-items: flex-end; 
+}
+.recents {
+    font-size: 30px;
+    border: 3px solid black; 
+    height: 90px;
+    width: 100px;
+    font-size: 90px;
+}
+#recentNumber0 {
+    color: white;
+    background-color:#0070C0 !important;
+    height: 150px;
+    width: 200px !important;
+    font-size: 170px;
+}
+#recentNumber6 {background-color: #FAF0D3}
+#recentNumber5 {background-color:#F5E2A9}
+#recentNumber4 {background-color:#ffdb6d}
+#recentNumber3 {background-color:#ffcc33}
+#recentNumber2 {background-color: #ffd900}
+#recentNumber1 {background-color:#ffc800}
+.allNumbers {
+    display: grid !important;
+    grid-template-columns: repeat(5,1fr);
+}
+.columns {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+}
+.bigLetters {
+    grid-column: span 2 !important;
+    height: 140px !important;
+    font-size: 150px !important;
+}
+#B-1{background-color: #EBDEEA}
+#I-1{background-color: #F9C7C6}
+#N-1{background-color: #E1EEE9}
+#G-1{background-color: #D2D2D2}
+#O-1 {background-color: #F5E2A9}
+.leftB {background-color: #D8BED7}
+.rightB {background-color: #C69DC4}
+.leftI {background-color: #F28E8C}
+.rightI {background-color: #ED5854}
+.leftN {background-color: #A5CDBC}
+.rightN {background-color: #6AAC90}
+.leftG {background-color: #c8c7c7}
+.rightG {background-color: #8e8d8d}
+.leftO {background-color: #F0D37D}
+.rightO {background-color: #E6B729}
+.valorr {
+    height: 52px;
+    border:3px solid black !important;
+    font-size: 50px;
+}
+#submit {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#submit * {
+    margin-left: 20px;
+}
+#Button {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+}
+#display {
+    display: grid !important;
+    grid-template-columns: repeat(5, 47px);
+    column-gap: 5px;
+    row-gap: 7px;
+    width: 200px;
+}
+.slotWindow {
+    color: black;
+    display: grid;
+    grid-template-rows: 5px;
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+    margin-left: 5px;
+    text-align: center;
+}
+.slotHeader span {
+    color: white;
+    font-size: 13px;
+}
+.slotHeader button {
+    color: white;
+    cursor: pointer;
+    border-radius: 20%;
+    border: 1px solid white;
+    background-color: red;
+    margin-left: 11px;
+    margin-top: 1px;
+    font-size: 10px;
+    width: 10px;
+    height: 12px;
+}
+.slotHeader button:hover {
+    background-color: rgb(209, 0, 0);
+    font-weight: bold;
+    font-size: 12px;
+}
+.slotHeader {
+    background-color: blue;
+    height: 17px;
+}
+.new-value {
+    background-color: white !important;
+    color: red !important;
+    border: 3px solid red !important;
+}
+
+#mainIndex * {
+    size: -25%;
+    size: 25%;
+}

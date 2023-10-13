@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentador de BINGO - Érick Lúcio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="containerIndex" class="container">
+        <aside>
+            <div id="confirm" class="centralized"></div>
+                <div id="submit" class="">
+                    <input id="value" type="number" class='inlineValues centralized'>
+                    <button for="value" type="button" onclick="newNumber()">Enviar</button>
+                    <button type="button" id="cleaner" onclick="confirmToClean()"> limpar</button>
+                </div>
+                <div id="display">
+                </div>   
+        </aside>
+        <main  class="centralized">
+            <div class="content">
+                <div id="recents">
+                </div>
+                <div id="allNumbers" class="allNumbers">
+                    <div class="columns" id="B"></div>
+                    <div class="columns" id="I"></div>
+                    <div class="columns" id="N"></div>
+                    <div class="columns" id="G"></div>
+                    <div class="columns" id="O"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="module"  src="js/body.js"></script>
+    <script type="module"  src="js/main.js"></script>
+    <script type="module"  src="js/naoFuncional.js"></script>
+    <script type="module"  src="js/funcional.js"></script>
+    <script type="module"  src="js/regrasDeNegocio.js"></script>
+</body>
+</html>
