@@ -1,3 +1,3 @@
 # Apresentador-de-BINGO
-Para funcionar corretamente precisa do live server
-ericklucioh.com/bingo
+### Para funcionar corretamente precisa da extenção live server do vscode
+https://ericklucioh.com/bingo
